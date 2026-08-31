@@ -12,7 +12,7 @@
         <li><a href="#projects" class="hover:text-blue-600 transition-colors">Projects</a></li>
         <li><a href="#career" class="hover:text-blue-600 transition-colors">Career</a></li>
         <li>
-            <a href="" class="px-4 py-2 bg-blue-700 text-white rounded-full hover:bg-blue-600 transition-colors">CV</a>
+            <a href="pdf/cv.pdf" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-blue-700 text-white rounded-full hover:bg-blue-600 transition-colors">CV</a>
         </li>
     </ul>
 

@@ -16,7 +16,7 @@
             <!-- Tombol -->
             <ul class="flex items-center gap-8 mb-10">
                 <li>
-                    <a href="#cv" class="inline-block px-16 py-2 bg-blue-700 text-white text-2xl font-semibold rounded-full hover:bg-blue-600 transition-colors">
+                    <a href="pdf/cv.pdf" target="_blank" rel="noopener noreferrer" class="inline-block px-16 py-2 bg-blue-700 text-white text-2xl font-semibold rounded-full shadow-[0_0_25px_rgba(59,130,246,0.45)] hover:bg-blue-600 hover:shadow-[0_0_35px_rgba(59,130,246,0.65)] transition-colors">
                         CV
                     </a>
                 </li>
@@ -30,7 +30,7 @@
             <!-- Media Sosial -->
             <ul class="flex items-center gap-4">
                 <li>
-                    <a href="#" class="flex items-center justify-center w-11 h-11 rounded-full border border-gray-600 text-white hover:border-blue-500 hover:text-blue-500 transition-colors">
+                    <a href="https://www.instagram.com/shafwandzaki_?igsi=MWp5eTR3Y2kwMWF1ZQ==" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-11 h-11 rounded-full border border-gray-600 text-white hover:border-blue-500 hover:text-blue-500 transition-colors">
                         
                         <!-- Instagram -->
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
@@ -41,7 +41,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="flex items-center justify-center w-11 h-11 rounded-full border border-gray-600 text-white hover:border-blue-500 hover:text-blue-500 transition-colors">
+                    <a href="mailto:shafwandzaki19@gmail.com" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-11 h-11 rounded-full border border-gray-600 text-white hover:border-blue-500 hover:text-blue-500 transition-colors">
                         
                         <!-- Email -->
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
@@ -50,7 +50,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="flex items-center justify-center w-11 h-11 rounded-full border border-gray-600 text-white hover:border-blue-500 hover:text-blue-500 transition-colors">
+                    <a href="https://www.linkedin.com/in/muhamad-shafwan-dzaki-8744b93aa?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-11 h-11 rounded-full border border-gray-600 text-white hover:border-blue-500 hover:text-blue-500 transition-colors">
 
                         <!-- LinkedIn -->
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
