@@ -10,7 +10,7 @@
     <x-navbar></x-navbar>
     <main>
         <x-home></x-home>
-        <!-- <x-skills></x-skills> -->
+        <x-skills></x-skills>
         <x-experience></x-experience>
         <x-projects></x-projects>
         <x-career></x-career>

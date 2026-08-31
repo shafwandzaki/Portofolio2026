@@ -12,7 +12,7 @@
 
                 <!-- Box Kiri (Icon) -->
                 <div class="w-full md:w-32 shrink-0 border border-[#262b3d] bg-[#151822] rounded-2xl flex justify-center items-center p-6 md:p-0">
-                    <img src="img/career.png" alt="Education Icon" class="w-12 h-12 object-contain" />
+                    <img src="icon/career.png" alt="Education Icon" class="w-12 h-12 object-contain" />
                 </div>
 
                 <!-- Box Kanan (Konten) -->
@@ -39,7 +39,7 @@
 
                 <!-- Box Kiri (Icon) -->
                 <div class="w-full md:w-32 shrink-0 border border-[#262b3d] bg-[#151822] rounded-2xl flex justify-center items-center p-6 md:p-0">
-                    <img src="img/career.png" alt="Career Icon" class="w-12 h-12 object-contain" />
+                    <img src="icon/career.png" alt="Career Icon" class="w-12 h-12 object-contain" />
                 </div>
 
                 <!-- Box Kanan (Konten) -->

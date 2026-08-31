@@ -3,7 +3,7 @@
     <div class="max-w-5xl mx-auto mt-14">
 
         <!-- Judul -->
-        <h1 class="text-4xl md:text-5xl font-bold text-center mb-16">Experience </h1>
+        <h1 class="text-4xl md:text-5xl font-bold text-center mb-16">Experience</h1>
 
         <!-- Pengalaman Terkait -->
         <h2 class="text-3xl font-semibold mb-8">Pengalaman</h2>
@@ -13,7 +13,7 @@
 
             <!-- Box Kiri -->
             <div class="w-full md:w-32 shrink-0 border border-[#262b3d] bg-[#151822] rounded-2xl flex justify-center items-center p-6 md:p-0">
-                <img src="img/pengalaman.png" class="w-12 h-12 object-contain"/>
+                <img src="icon/pengalaman.png" class="w-12 h-12 object-contain"/>
             </div>
 
             <!-- Box Kanan -->
@@ -50,7 +50,7 @@
 
             <!-- Box Kiri -->
             <div class="w-full md:w-32 shrink-0 border border-[#262b3d] bg-[#151822] rounded-2xl flex justify-center items-center p-6 md:p-0">
-                <img src="img/freelance.png" class="w-12 h-12 object-contain"/>
+                <img src="icon/freelance.png" class="w-12 h-12 object-contain"/>
             </div>
 
             <!-- Box Kanan -->
@@ -78,7 +78,7 @@
 
             <!-- Box Kiri -->
             <div class="w-full md:w-32 shrink-0 border border-[#262b3d] bg-[#151822] rounded-2xl flex justify-center items-center p-6 md:p-0">
-                <img src="img/organisasi.png" class="w-12 h-12 object-contain"/>
+                <img src="icon/organisasi.png" class="w-12 h-12 object-contain"/>
             </div>
 
             <!-- Box Kanan -->
@@ -112,7 +112,7 @@
 
             <!-- Box Kiri -->
             <div class="w-full md:w-32 shrink-0 border border-[#262b3d] bg-[#151822] rounded-2xl flex justify-center items-center p-6 md:p-0">
-                <img src="img/organisasi.png" class="w-12 h-12 object-contain"/>
+                <img src="icon/organisasi.png" class="w-12 h-12 object-contain"/>
             </div>
 
             <!-- Box Kanan -->
@@ -146,7 +146,7 @@
 
             <!-- Box Kiri -->
             <div class="w-full md:w-32 shrink-0 border border-[#262b3d] bg-[#151822] rounded-2xl flex justify-center items-center p-6 md:p-0">
-                <img src="img/organisasi.png" class="w-12 h-12 object-contain"/>
+                <img src="icon/organisasi.png" class="w-12 h-12 object-contain"/>
             </div>
 
             <!-- Box Kanan -->

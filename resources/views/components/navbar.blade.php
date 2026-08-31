@@ -7,7 +7,7 @@
     <!-- Menu desktop -->
     <ul class="hidden md:flex items-center gap-10 text-gray-400 font-normal">
         <li><a href="#home" class="hover:text-blue-600 transition-colors">Home</a></li>
-        <li><a href="#skill" class="hover:text-blue-600 transition-colors">Skills</a></li>
+        <li><a href="#skills" class="hover:text-blue-600 transition-colors">Skills</a></li>
         <li><a href="#experience" class="hover:text-blue-600 transition-colors">Experience</a></li>
         <li><a href="#projects" class="hover:text-blue-600 transition-colors">Projects</a></li>
         <li><a href="#career" class="hover:text-blue-600 transition-colors">Career</a></li>
@@ -29,7 +29,7 @@
     <!-- Menu mobile (dropdown) -->
     <ul id="mobile-menu" class="hidden md:hidden absolute top-full left-0 w-full bg-[#0A0C18]/70 backdrop-blur-md flex flex-col items-center gap-6 py-6 text-gray-400 font-normal shadow-md">
         <li><a href="#home" class="hover:text-blue-600 transition-colors">Home</a></li>
-        <li><a href="#skill" class="hover:text-blue-600 transition-colors">Skills</a></li>
+        <li><a href="#skills" class="hover:text-blue-600 transition-colors">Skills</a></li>
         <li><a href="#experience" class="hover:text-blue-600 transition-colors">Experience</a></li>
         <li><a href="#projects" class="hover:text-blue-600 transition-colors">Projects</a></li>
         <li><a href="#career" class="hover:text-blue-600 transition-colors">Career</a></li>
