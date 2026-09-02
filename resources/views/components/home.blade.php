@@ -31,21 +31,21 @@
             <!-- Media Sosial -->
             <ul class="flex items-center gap-4">
                 <li>
-                    <a href="https://www.instagram.com/shafwandzaki_?igsi=MWp5eTR3Y2kwMWF1ZQ==" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-11 h-11 rounded-full border border-gray-600 text-white hover:border-blue-500 hover:text-blue-500 transition-colors">
+                    <a href="{{ $home['linkinstagram'] }}" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-11 h-11 rounded-full border border-gray-600 text-white hover:border-blue-500 hover:text-blue-500 transition-colors">
                         
                         <!-- Instagram -->
                         <x-svg-instagram></x-svg-instagram>
                     </a>
                 </li>
                 <li>
-                    <a href="mailto:shafwandzaki19@gmail.com" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-11 h-11 rounded-full border border-gray-600 text-white hover:border-blue-500 hover:text-blue-500 transition-colors">
+                    <a href="{{ $home['linkemail'] }}" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-11 h-11 rounded-full border border-gray-600 text-white hover:border-blue-500 hover:text-blue-500 transition-colors">
                         
                         <!-- Email -->
                         <x-svg-email></x-svg-email>
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/muhamad-shafwan-dzaki-8744b93aa?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-11 h-11 rounded-full border border-gray-600 text-white hover:border-blue-500 hover:text-blue-500 transition-colors">
+                    <a href="{{ $home['linklinkedin'] }}" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-11 h-11 rounded-full border border-gray-600 text-white hover:border-blue-500 hover:text-blue-500 transition-colors">
 
                         <!-- LinkedIn -->
                         <x-svg-linkedin></x-svg-linkedin>

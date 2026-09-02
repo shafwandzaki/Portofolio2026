@@ -8,6 +8,20 @@
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #3b82f6 #0A0C18;
+}
+
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #2563eb transparent;
+}
+
 html{
     scroll-behavior: smooth;
+}
+
+[x-cloak] {
+    display: none !important;
 }

@@ -112,51 +112,68 @@ class Homecontroller extends Controller
         return [
             [
                 'grup' => 'Proyek Terkait',
-                'img' => 'img/project1.jpg',
+                'img' => 'img/bannersbiz.png',
                 'namaproject' => 'Sbiz - Aplikasi Marketplace Berbasis Mobile',
-                'deskripsi' => 'SBiz merupakan aplikasi marketplace berbasis mobile yang dikembangkan sebagai bentuk pengembangan dari platform SBiz berbasis website yang telah tersedia sebelumnya. Aplikasi ini dirancang untuk memberikan pengalaman berbelanja yang lebih praktis dan mudah diakses melalui perangkat mobile.'
+                'deskripsi' => 'SBiz merupakan aplikasi marketplace berbasis mobile yang dikembangkan sebagai bentuk pengembangan dari platform SBiz berbasis website yang telah tersedia sebelumnya. Aplikasi ini dirancang untuk memberikan pengalaman berbelanja yang lebih praktis dan mudah diakses melalui perangkat mobile.',
+                'detail' => 'SBiz merupakan aplikasi marketplace berbasis mobile yang dikembangkan sebagai bentuk pengembangan dari platform SBiz berbasis website yang telah tersedia sebelumnya. Aplikasi ini dirancang untuk memberikan pengalaman berbelanja yang lebih praktis, mudah, dan fleksibel melalui perangkat mobile. Pengguna dapat mengakses layanan marketplace kapan saja dan di mana saja, mulai dari mencari produk hingga melihat informasi seperti detail, harga, dan ketersediaan barang. Tampilan antarmuka serta navigasi aplikasi dirancang secara sederhana agar pengguna dapat mengakses berbagai fitur dengan mudah. Dengan demikian, SBiz Mobile diharapkan dapat memberikan pengalaman berbelanja yang lebih nyaman dan efisien bagi pengguna.
+                Sebagai pengembangan dari platform website, SBiz Mobile tetap menyediakan fungsi utama marketplace dengan menyesuaikannya terhadap kebutuhan pengguna perangkat mobile. Pengguna dapat menjelajahi produk, melihat detail produk, melakukan pembelian, serta memantau informasi terkait pesanan dan transaksi. Aplikasi ini juga dirancang dengan tampilan yang responsif dan navigasi yang sederhana untuk mempermudah penggunaan setiap fitur. Pengembangan SBiz Mobile bertujuan untuk meningkatkan aksesibilitas layanan serta mendukung proses jual beli secara lebih fleksibel dan optimal. Secara keseluruhan, aplikasi ini diharapkan mampu memberikan layanan marketplace yang praktis, efektif, dan sesuai dengan kebutuhan pengguna di era digital.',
+                'linkproject' => 'https://play.google.com/store/apps/details?id=id.co.sbiz'
             ],
 
             [
                 'grup' => 'Proyek Terkait',
-                'img' => 'img/project2.jpg',
+                'img' => 'img/bannerdesainsbiz.png',
                 'namaproject' => 'Desain UI/UX - Aplikasi Marketplace Berbasis Mobile',
-                'deskripsi' => 'Sebuah desian aplikasi marketplace dengan berbagai fitur dibuat menggunakan component dengan figma. Perancangan UI/UX mencakup pembuatan user flow, wireframe, struktur navigasi, layout halaman, hingga desain antarmuka final. Desain dibuat dengan mempertimbangkan kemudahan navigasi & kenyamanan pengguna.'
+                'deskripsi' => 'Sebuah desian aplikasi marketplace dengan berbagai fitur dibuat menggunakan component dengan figma. Perancangan UI/UX mencakup pembuatan user flow, wireframe, struktur navigasi, layout halaman, hingga desain antarmuka final. Desain dibuat dengan mempertimbangkan kemudahan navigasi & kenyamanan pengguna.',
+                'detail' => 'Perancangan aplikasi marketplace dilakukan menggunakan Figma dengan memanfaatkan berbagai komponen untuk membangun tampilan antarmuka yang konsisten dan terstruktur. Proses perancangan UI/UX mencakup pembuatan user flow untuk menggambarkan alur interaksi pengguna dalam aplikasi. Selain itu, dibuat wireframe sebagai rancangan awal untuk menentukan struktur dan penempatan elemen pada setiap halaman. Struktur navigasi juga dirancang untuk memudahkan pengguna dalam berpindah dari satu halaman ke halaman lainnya. Seluruh proses perancangan dilakukan secara bertahap hingga menghasilkan desain antarmuka final yang siap digunakan sebagai acuan pengembangan aplikasi.
+                Dalam proses pembuatan desain, setiap halaman disusun dengan memperhatikan layout, hierarki informasi, serta konsistensi penggunaan komponen dan elemen visual. Desain antarmuka dibuat dengan mempertimbangkan kemudahan navigasi agar pengguna dapat menemukan fitur dan informasi yang dibutuhkan dengan cepat. Selain itu, aspek kenyamanan pengguna juga menjadi perhatian dalam menentukan ukuran elemen, penggunaan warna, tipografi, serta tata letak. Pemanfaatan komponen pada Figma membantu menjaga konsistensi desain sekaligus mempermudah proses pengembangan dan perubahan desain. Dengan pendekatan tersebut, rancangan UI/UX diharapkan dapat menghasilkan pengalaman pengguna yang intuitif, nyaman, dan sesuai dengan kebutuhan aplikasi marketplace.',
+                'linkproject' => 'https://www.figma.com/design/CAhdaoEwTV9XCJfOPxH1tZ/SBiz?node-id=774-3288&t=q5Bnrz1IurSPyx3y-0'
             ],
 
             [
                 'grup' => 'Proyek Terkait',
-                'img' => 'img/project3.jpg',
-                'namaproject' => 'Jurnal Akademik - Aplikasi Mobile untuk Mahasiswa',
-                'deskripsi' => 'Jurnal Akademik merupakan aplikasi pembelajaran siswa berbasis mobile yang dikembangkan sebagai bentuk pengembangan dari platform Jurnal Akademik berbasis website. Aplikasi ini dirancang untuk memudahkakn siswa, guru, dan orang tua untuk memantu perkembangan pembelajaran siswa dengan praktis melalui perangkat mobile.'
+                'img' => 'img/bannerjurnalakademik.png',
+                'namaproject' => 'Jurnal Akademik - Aplikasi Pembelajaran Berbasis Mobile',
+                'deskripsi' => 'Jurnal Akademik merupakan aplikasi pembelajaran siswa berbasis mobile yang dikembangkan sebagai bentuk pengembangan dari platform Jurnal Akademik berbasis website. Aplikasi ini dirancang untuk memudahkakn siswa, guru, dan orang tua untuk memantu perkembangan pembelajaran siswa dengan praktis melalui perangkat mobile.',
+                'detail' => 'Jurnal Akademik merupakan aplikasi pembelajaran siswa berbasis mobile yang dikembangkan sebagai bentuk pengembangan dari platform Jurnal Akademik berbasis website yang telah tersedia sebelumnya. Aplikasi ini dirancang untuk memudahkan siswa, guru, dan orang tua dalam memantau perkembangan pembelajaran siswa melalui perangkat mobile. Dengan adanya aplikasi ini, informasi terkait aktivitas dan perkembangan akademik dapat diakses dengan lebih praktis dan fleksibel. Pengguna dapat memperoleh informasi pembelajaran tanpa harus selalu mengakses platform melalui komputer atau laptop. Hal ini diharapkan dapat meningkatkan kemudahan serta efisiensi dalam proses pemantauan kegiatan akademik siswa.
+                Dalam pengembangannya, Jurnal Akademik Mobile menyediakan berbagai informasi yang berkaitan dengan aktivitas dan perkembangan pembelajaran siswa. Siswa dapat menggunakan aplikasi untuk mengakses informasi akademik, sementara guru dan orang tua dapat memantau perkembangan pembelajaran secara lebih mudah. Antarmuka aplikasi dirancang dengan navigasi yang sederhana dan mudah dipahami agar dapat digunakan oleh setiap pengguna sesuai dengan kebutuhannya. Selain meningkatkan aksesibilitas informasi, aplikasi ini juga diharapkan dapat mendukung komunikasi dan pemantauan antara siswa, guru, dan orang tua. Secara keseluruhan, Jurnal Akademik Mobile menjadi salah satu solusi untuk mendukung proses pembelajaran dan pemantauan akademik secara lebih praktis di era digital.',
+                'linkproject' => 'https://play.google.com/store/apps/details?id=id.schoolmedia.jurnal'
             ],
 
             [
                 'grup' => 'Proyek Terkait',
-                'img' => 'img/project4.jpg',
+                'img' => 'img/bannerjasabersihrumah.png',
                 'namaproject' => 'SuruhinAja - Tampilan Website Jasa Bersih Rumah',
-                'deskripsi' => 'SuruhinAja merupakan website jasa bersih rumah, tampilan web ini dibangun menggunakan HTML, CSS, dan JavaScript. fitur di website ini dapat memesan jasa bersih rumah dari jauh dan dapat mengatur jadwal pemesanan.'
+                'deskripsi' => 'SuruhinAja merupakan website jasa bersih rumah, tampilan web ini dibangun menggunakan HTML, CSS, dan JavaScript. fitur di website ini dapat memesan jasa bersih rumah dari jauh dan dapat mengatur jadwal pemesanan.',
+                'detail' => 'SuruhinAja merupakan website layanan jasa kebersihan rumah yang dirancang untuk memudahkan pengguna dalam menemukan dan memesan layanan kebersihan sesuai dengan kebutuhan. Website ini dibangun menggunakan teknologi **HTML, CSS, dan JavaScript** untuk menghasilkan tampilan yang informatif, interaktif, dan mudah digunakan. Pengguna dapat mengakses layanan secara online tanpa perlu datang langsung atau melakukan pemesanan secara manual. Melalui website ini, pengguna dapat memilih layanan kebersihan yang tersedia sesuai dengan kebutuhan. Dengan adanya SuruhinAja, proses pemesanan jasa kebersihan dapat dilakukan dengan lebih praktis dan efisien.
+                Fitur yang tersedia pada website SuruhinAja memungkinkan pengguna untuk melakukan pemesanan jasa kebersihan dari jarak jauh melalui perangkat yang terhubung dengan internet. Pengguna juga dapat menentukan jadwal pemesanan sesuai dengan waktu yang diinginkan sehingga layanan dapat disesuaikan dengan aktivitas pengguna. Informasi mengenai layanan disajikan secara jelas agar pengguna dapat menentukan pilihan sebelum melakukan pemesanan. Tampilan website dirancang dengan memperhatikan kemudahan navigasi dan kenyamanan pengguna dalam mengakses setiap fitur. Secara keseluruhan, SuruhinAja diharapkan dapat menjadi solusi praktis dalam memenuhi kebutuhan jasa kebersihan rumah secara online.',
+                'linkproject' => '#'
             ],
 
             [
                 'grup' => 'Proyek Terkait',
-                'img' => 'img/project5.jpg',
+                'img' => 'img/bannerlaundry.png',
                 'namaproject' => 'Web Laundry Expres - Tampilan Website Laundry',
-                'deskripsi' => 'Laundry Expres merupakan website laundry yang dikembangkan menggunakan HTML, CSS, dan JavaScript sebagi tampilannya. fitur di website ini dapat memesan dan mengatur jadwal pengambilan cucian ketempat pelanggan dan akan diantar setelah cucian selesai.'
+                'deskripsi' => 'Laundry Expres merupakan website laundry yang dikembangkan menggunakan HTML, CSS, dan JavaScript sebagi tampilannya. fitur di website ini dapat memesan dan mengatur jadwal pengambilan cucian ketempat pelanggan dan akan diantar setelah cucian selesai.',
+                'detail' => 'Laundry Express merupakan website layanan laundry yang dikembangkan menggunakan **HTML, CSS, dan JavaScript** sebagai teknologi utama dalam membangun tampilan dan interaksi pada website. Website ini dirancang untuk memberikan kemudahan kepada pelanggan dalam melakukan pemesanan layanan laundry secara online. Pengguna dapat mengakses layanan tanpa perlu datang langsung ke tempat laundry untuk melakukan pemesanan. Informasi mengenai layanan dapat disajikan secara jelas sehingga pelanggan dapat memilih layanan sesuai dengan kebutuhan. Dengan adanya Laundry Express, proses pemesanan laundry diharapkan menjadi lebih praktis, mudah, dan efisien.
+                Fitur utama pada website Laundry Express memungkinkan pelanggan untuk melakukan pemesanan sekaligus mengatur jadwal pengambilan cucian dari lokasi pelanggan. Setelah cucian selesai diproses, cucian akan diantarkan kembali ke lokasi pelanggan sesuai dengan jadwal yang telah ditentukan. Sistem ini memberikan kemudahan bagi pelanggan karena seluruh proses dapat dilakukan tanpa harus datang langsung ke tempat laundry. Tampilan website juga dirancang dengan memperhatikan kemudahan navigasi agar pengguna dapat melakukan pemesanan dengan mudah. Secara keseluruhan, Laundry Express diharapkan dapat menjadi solusi layanan laundry yang praktis dengan sistem pengambilan dan pengantaran yang lebih efisien.',
+                'linkproject' => '#'
             ],
 
             [
                 'grup' => 'Karya Saya Yang Lain',
                 'img' => 'img/project6.jpg',
                 'namaproject' => 'Fotografi',
-                'deskripsi' => 'Beberapa karya fotografi saya dengan berbagai macam genre seperti potrait, landscape, streen, moment, dll. juga dengan berbagai mood seperti warm, cool, moody, dll serta dengan berbagai macam style atau gaya visual.'
+                'deskripsi' => 'Beberapa karya fotografi saya dengan berbagai macam genre seperti potrait, landscape, streen, moment, dll. juga dengan berbagai mood seperti warm, cool, moody, dll serta dengan berbagai macam style atau gaya visual.',
+                'linkproject' => '#'
             ],
 
             [
                 'grup' => 'Karya Saya Yang Lain',
                 'img' => 'img/project7.jpg',
                 'namaproject' => 'Desain Grafis',
-                'deskripsi' => 'Beberapa karya desain grafis saya dengan berbagai macam ukuran dan kreativitas dari potrait, landscape, story, feed, poster, flayer, banner, kolase, dll serta dengan berbagai macam style atau gaya visual.'
+                'deskripsi' => 'Beberapa karya desain grafis saya dengan berbagai macam ukuran dan kreativitas dari potrait, landscape, story, feed, poster, flayer, banner, kolase, dll serta dengan berbagai macam style atau gaya visual.',
+                'linkproject' => '#'
             ]
         ];
     }

@@ -1,8 +1,8 @@
 <nav class="sticky top-0 z-50 flex items-center justify-between px-8 py-4 bg-[#0A0C18]/70 backdrop-blur-md shadow-md">
-    <div class="flex items-center gap-2">
-        <img src="#" alt="Logo" class="w-8 h-8 rounded-full">
+    <a href="#home" class="flex items-center gap-4">
+        <img src="img/logo.png" alt="Logo" class="w-8 h-8 rounded-full">
         <h2 class="text-xl font-bold text-white">dzaki.</h2>
-    </div>
+    </a>
 
     <!-- Menu desktop -->
     <ul class="hidden md:flex items-center gap-10 text-gray-400 font-normal">
@@ -34,7 +34,7 @@
         <li><a href="#projects" class="hover:text-blue-600 transition-colors">Projects</a></li>
         <li><a href="#career" class="hover:text-blue-600 transition-colors">Career</a></li>
         <li>
-            <a href="" class="px-4 py-2 bg-blue-700 text-white rounded-full hover:bg-blue-600 transition-colors">CV</a>
+            <a href="pdf/cv.pdf" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-blue-700 text-white rounded-full hover:bg-blue-600 transition-colors">CV</a>
         </li>
     </ul>
 </nav>

@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio</title>
-    @vite('resources/css/app.css')
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-[#0A0C18] text-white">
+<body class="custom-scrollbar bg-[#0A0C18] text-white">
     <x-navbar></x-navbar>
     <main>
         <x-home :home="$home"/>
