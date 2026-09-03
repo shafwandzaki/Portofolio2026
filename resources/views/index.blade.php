@@ -7,6 +7,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="custom-scrollbar bg-[#0A0C18] text-white">
+    <x-bg-utama></x-bg-utama>
     <x-navbar></x-navbar>
     <main>
         <x-home :home="$home"/>

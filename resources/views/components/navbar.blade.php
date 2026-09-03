@@ -28,6 +28,8 @@
         </li>
     </ul>
 
+    {{-- Mobile --}}
+
     <!-- Tombol hamburger (mobile) -->
     <button @click="open = !open" class="md:hidden text-white focus:outline-none">
         <svg x-show="!open" class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">

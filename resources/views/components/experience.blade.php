@@ -1,6 +1,6 @@
 @props(['experiences'])
 
-<section id="experience" class="bg-[#0A0C18] min-h-screen py-16 px-4 font-sans text-white mb-32">
+<section id="experience" class="min-h-screen py-16 px-4 font-sans text-white mb-32">
     <!-- Utama -->
     <div class="max-w-5xl mx-auto mt-14">
 

@@ -1,6 +1,6 @@
 @props(['projects'])
 
-<section id="projects" x-data="{ selected: null }" class="bg-[#0A0C18] min-h-screen py-16 px-4 font-sans text-white mb-32">
+<section id="projects" x-data="{ selected: null }" class="min-h-screen py-16 px-4 font-sans text-white mb-32">
     <!-- Wrapper Utama -->
     <div class="max-w-6xl mx-auto mt-18">
         

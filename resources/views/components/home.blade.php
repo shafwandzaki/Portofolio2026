@@ -1,6 +1,6 @@
 @props(['home'])
 
-<section id="home" class="scroll-mt-18 relative flex  justify-center min-h-screen overflow-hidden bg-[#0A0C18] px-8 pt-10 md:py-0 mb-32">
+<section id="home" class="scroll-mt-18 relative flex  justify-center min-h-screen overflow-hidden px-8 pt-10 md:py-0 mb-32">
 
         <!-- Kiri -->
         <div class="items-start text-center md:text-left w-full md:w-1/2 mx-auto md:mx-0">
@@ -22,7 +22,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#projects" class="inline-block px-10 py-2 bg-[#1A1D2E] text-white text-2xl font-semibold rounded-full hover:bg-[#252940] transition-colors">
+                    <a href="#projects" class="inline-block px-10 py-2 bg-[#1A1D2E]/30 border-1 border-white/5 text-white text-2xl font-semibold rounded-full hover:bg-[#252940] transition-colors">
                         Projects
                     </a>
                 </li>
