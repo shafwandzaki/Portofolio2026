@@ -35,11 +35,13 @@ class Homecontroller extends Controller
         return [
             ['nameskill' => 'HTML', 'iconskill' => 'icon/html.png', 'category' => 'Frontend Development', 'percent' => 100],
             ['nameskill' => 'CSS', 'iconskill' => 'icon/css.png', 'category' => 'Frontend Development', 'percent' => 100],
+            ['nameskill' => 'Alpine.js', 'iconskill' => 'icon/alpinejs.png', 'category' => 'Frontend Development', 'percent' => 50],
             ['nameskill' => 'Laravel Blade', 'iconskill' => 'icon/laravel.png', 'category' => 'Frontend Development', 'percent' => 50],
             ['nameskill' => 'TailwindCSS', 'iconskill' => 'icon/tailwindcss.png', 'category' => 'Frontend Development', 'percent' => 50],
             ['nameskill' => 'Python', 'iconskill' => 'icon/python.png', 'category' => 'Core Programming', 'percent' => 50],
             ['nameskill' => 'C++', 'iconskill' => 'icon/cplus.png', 'category' => 'Core Programming', 'percent' => 60],
             ['nameskill' => 'PHP', 'iconskill' => 'icon/php.png', 'category' => 'Backend Development', 'percent' => 10],
+            ['nameskill' => 'Dart', 'iconskill' => 'icon/dart.png', 'category' => 'Mobile Development', 'percent' => 40],
             ['nameskill' => 'Flutter', 'iconskill' => 'icon/flutter.png', 'category' => 'Mobile Development', 'percent' => 40],
             ['nameskill' => 'Git', 'iconskill' => 'icon/git.png', 'category' => 'Tools & Deployment', 'percent' => 60],
             ['nameskill' => 'GitHub', 'iconskill' => 'icon/github.png', 'category' => 'Tools & Deployment', 'percent' => 60],
@@ -61,7 +63,7 @@ class Homecontroller extends Controller
                 'posisi' => 'Mobile Developer',
                 'namaperusahaan' => 'Schoolmedia, PT. Janish Lintas Data',
                 'waktu' => 'April 2026 - Agustus 2026',
-                'lokasi' => 'Ciner, Depok',
+                'lokasi' => 'Cinere, Depok',
                 'deskripsi' => 'Berperan sebagai Mobile Developer dengan fokus pada pengembangan front-end aplikasi menggunakan Flutter. Terlibat dalam pengembangan aplikasi Jurnal Akademik dan SBIZ, mulai dari implementasi desain ke dalam aplikasi, pengembangan tampilan hingga melakukan pengujian serta revisi tampilan. Pada proyek SBIZ, turut terlibat dalam perancangan UI/UX menggunakan Figma, meliputi riset, penyusunan user flow, desain antarmuka, dan prototype.'
             ],
 
@@ -111,7 +113,7 @@ class Homecontroller extends Controller
     {
         return [
             [
-                'grup' => 'Proyek Terkait',
+                'grup' => 'Project Terkait',
                 'img' => 'img/bannersbiz.png',
                 'namaproject' => 'Sbiz - Aplikasi Marketplace Berbasis Mobile',
                 'deskripsi' => 'SBiz merupakan aplikasi marketplace berbasis mobile yang dikembangkan sebagai bentuk pengembangan dari platform SBiz berbasis website yang telah tersedia sebelumnya. Aplikasi ini dirancang untuk memberikan pengalaman berbelanja yang lebih praktis dan mudah diakses melalui perangkat mobile.',
@@ -121,7 +123,7 @@ class Homecontroller extends Controller
             ],
 
             [
-                'grup' => 'Proyek Terkait',
+                'grup' => 'Project Terkait',
                 'img' => 'img/bannerdesainsbiz.png',
                 'namaproject' => 'Desain UI/UX - Aplikasi Marketplace Berbasis Mobile',
                 'deskripsi' => 'Sebuah desian aplikasi marketplace dengan berbagai fitur dibuat menggunakan component dengan figma. Perancangan UI/UX mencakup pembuatan user flow, wireframe, struktur navigasi, layout halaman, hingga desain antarmuka final. Desain dibuat dengan mempertimbangkan kemudahan navigasi & kenyamanan pengguna.',
@@ -131,7 +133,7 @@ class Homecontroller extends Controller
             ],
 
             [
-                'grup' => 'Proyek Terkait',
+                'grup' => 'Project Terkait',
                 'img' => 'img/bannerjurnalakademik.png',
                 'namaproject' => 'Jurnal Akademik - Aplikasi Pembelajaran Berbasis Mobile',
                 'deskripsi' => 'Jurnal Akademik merupakan aplikasi pembelajaran siswa berbasis mobile yang dikembangkan sebagai bentuk pengembangan dari platform Jurnal Akademik berbasis website. Aplikasi ini dirancang untuk memudahkakn siswa, guru, dan orang tua untuk memantu perkembangan pembelajaran siswa dengan praktis melalui perangkat mobile.',
@@ -141,7 +143,7 @@ class Homecontroller extends Controller
             ],
 
             [
-                'grup' => 'Proyek Terkait',
+                'grup' => 'Project Terkait',
                 'img' => 'img/bannerjasabersihrumah.png',
                 'namaproject' => 'SuruhinAja - Tampilan Website Jasa Bersih Rumah',
                 'deskripsi' => 'SuruhinAja merupakan website jasa bersih rumah, tampilan web ini dibangun menggunakan HTML, CSS, dan JavaScript. fitur di website ini dapat memesan jasa bersih rumah dari jauh dan dapat mengatur jadwal pemesanan.',
@@ -151,7 +153,7 @@ class Homecontroller extends Controller
             ],
 
             [
-                'grup' => 'Proyek Terkait',
+                'grup' => 'Project Terkait',
                 'img' => 'img/bannerlaundry.png',
                 'namaproject' => 'Web Laundry Expres - Tampilan Website Laundry',
                 'deskripsi' => 'Laundry Expres merupakan website laundry yang dikembangkan menggunakan HTML, CSS, dan JavaScript sebagi tampilannya. fitur di website ini dapat memesan dan mengatur jadwal pengambilan cucian ketempat pelanggan dan akan diantar setelah cucian selesai.',
