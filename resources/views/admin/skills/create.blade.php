@@ -4,7 +4,7 @@
 
     <h1 class="text-3xl font-bold mb-8">Skills</h1>
 
-    <div class="bg-[#191C26] border border-white/5 rounded-2xl p-8 max-w-4xl">
+    <div class="bg-[#191C26] border border-white/5 rounded-2xl p-8 max-w-6xl">
         <h2 class="text-sm font-bold text-white mb-6">Data Skills</h2>
 
         <form action="{{ route('admin.skills.store') }}" method="POST" enctype="multipart/form-data" class="space-y-6">

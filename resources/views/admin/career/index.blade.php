@@ -2,14 +2,14 @@
 
 @section('content')
 
-    <div class="mb-8 flex flex-wrap items-center justify-between gap-4 max-w-4xl">
+    <div class="mb-8 flex flex-wrap items-center justify-between gap-4 max-w-6xl">
         <h1 class="text-3xl font-bold">Career</h1>
         <a href="{{ route('admin.career.create') }}" class="px-6 py-2.5 bg-[#1C5BFF] hover:bg-blue-600 rounded-lg text-sm font-semibold transition-colors">
             + Tambah
         </a>
     </div>
 
-    <div class="max-w-4xl space-y-6">
+    <div class="max-w-6xl space-y-6">
         @forelse($careers as $career)
             <div class="bg-[#191C26] border border-white/5 rounded-2xl p-6">
                 

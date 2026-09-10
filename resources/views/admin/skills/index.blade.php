@@ -2,14 +2,14 @@
 
 @section('content')
 
-    <div class="flex items-center justify-between mb-8 max-w-5xl">
+    <div class="flex items-center justify-between mb-8 max-w-6xl">
         <h1 class="text-3xl font-bold">Skills</h1>
         <a href="{{ route('admin.skills.create') }}" class="px-6 py-2.5 bg-[#1C5BFF] hover:bg-blue-600 rounded-lg text-sm font-semibold transition-colors">
             + Tambah
         </a>
     </div>
 
-    <div class="bg-[#191C26] border border-white/5 rounded-2xl overflow-hidden max-w-5xl">
+    <div class="bg-[#191C26] border border-white/5 rounded-2xl overflow-hidden max-w-6xl">
         <div class="overflow-x-auto">
             <table class="w-full text-left border-collapse">
                 <thead class="bg-[#212430] text-gray-300 text-sm border-b border-white/5">

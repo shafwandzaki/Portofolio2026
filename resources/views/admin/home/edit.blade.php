@@ -4,7 +4,7 @@
 
     <h2 class="text-2xl font-bold mb-8">Edit Konten Home</h2>
 
-    <form action="{{ route('admin.home.edit') }}" method="POST" enctype="multipart/form-data" class="max-w-lg space-y-5">
+    <form action="{{ route('admin.home.edit') }}" method="POST" enctype="multipart/form-data" class="max-w-6xl space-y-5">
         @csrf
         @method('PUT')
 
