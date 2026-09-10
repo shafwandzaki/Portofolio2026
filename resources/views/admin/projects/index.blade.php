@@ -14,7 +14,7 @@
             <div class="bg-[#191C26] border border-white/5 rounded-2xl p-6 flex flex-col md:flex-row gap-6">
                 
                 <!-- Kiri: Gambar & Tombol Aksi -->
-                <div class="w-full md:w-[300px] shrink-0 flex flex-col gap-4">
+                <div class="w-full md:w-75 shrink-0 flex flex-col gap-4">
                     <img src="{{ asset('storage/' . $project->image) }}" alt="{{ $project->nameproject }}" class="w-full h-40 object-cover rounded-lg bg-gray-300">
                     
                     <div class="flex items-center gap-3">
