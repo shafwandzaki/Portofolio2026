@@ -1,6 +1,6 @@
 @props(['skill'])
 
-<div class="bg-white/5  border border-white/10 rounded-2xl p-6 flex flex-col justify-between shadow-lg hover:text-blue-500 transition-all duration-300">
+<div class="reveal-item bg-white/5  border border-white/10 rounded-2xl p-6 flex flex-col justify-between shadow-lg hover:text-blue-500 transition-all duration-300">
     <div class="flex items-center gap-3 mb-4">
         <img src="{{ asset($skill['iconskill']) }}" alt="{{ $skill['nameskill'] }}" class="w-8 h-8 object-contain" />
         <p class="text-xl font-bold">{{ $skill['nameskill'] }}</p>

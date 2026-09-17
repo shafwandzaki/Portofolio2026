@@ -7,7 +7,7 @@
         <!-- Judul -->
         <h1 class="text-4xl md:text-5xl font-bold text-center mb-16">Career</h1>
 
-        <div class="flex flex-col gap-8">
+        <div class="reveal-group flex flex-col gap-8">
 
             @foreach ($careers as $career)
                 <x-card-career :career="$career" />

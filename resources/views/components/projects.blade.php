@@ -11,7 +11,7 @@
         <h2 class="text-3xl font-semibold mt-16 mb-8">{{ $grup }}</h2>
         
         <!-- Baris Column -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+        <div class="reveal-group grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             
             @foreach ($projects as $project)
                 <x-card-project :project="$project" />

@@ -25,3 +25,14 @@ html{
 [x-cloak] {
     display: none !important;
 }
+
+.reveal-item {
+    opacity: 0;
+    transform: translateY(2rem);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.reveal-item.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}

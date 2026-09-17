@@ -1,6 +1,6 @@
 @props(['career'])
 
-<div class="flex flex-col md:flex-row gap-6">
+<div class="reveal-item flex flex-col md:flex-row gap-6">
 
     <!-- Box Kiri (Icon) -->
     <div class="w-full md:w-32 shrink-0 bg-white/5 border border-white/10 rounded-2xl flex justify-center items-center p-6 md:p-0">
