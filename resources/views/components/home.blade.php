@@ -4,9 +4,12 @@
 
         <!-- Kiri -->
         <div class="items-start text-center md:text-left w-full md:w-1/2 mx-auto md:mx-0">
-            <p class="text-gray-300 text-lg mt-20 mb-2">Selamat Datang di Portofolio Saya!</p>
+            <div class="mt-20 flex items-center gap-6 mb-4">
+                <span class="h-2 w-2 rounded-full bg-white"></span>
+                <p class="text-gray-300 text-lg">Selamat Datang di Portofolio Saya!</p>
+            </div>
 
-            <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight">Hai, Saya</h1>
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-semibold sm:font-bold text-white leading-tight">Hai, Saya</h1>
     
             <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-blue-500 leading-tight mb-6">{{ $home['name'] }}</h1>
             <p class="text-white text-lg md:text-xl mb-6">&lt;{{ $home['title'] }}/&gt;</p>
@@ -15,7 +18,7 @@
             </p>
 
             <!-- Tombol -->
-            <ul class="flex items-center gap-8 mb-10">
+            <ul class="flex items-center gap-4 sm:gap-8 mb-10">
                 <li>
                     <a href="{{ asset('storage/' . $home['cv']) }}" target="_blank" rel="noopener noreferrer" class="inline-block px-16 py-2 bg-blue-700 text-white text-2xl font-semibold rounded-full shadow-[0_0_25px_rgba(59,130,246,0.45)] hover:bg-blue-600 hover:shadow-[0_0_35px_rgba(59,130,246,0.65)] transition-colors">
                         CV
