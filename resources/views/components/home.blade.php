@@ -6,14 +6,14 @@
         <div class="items-start text-center md:text-left w-full md:w-1/2 mx-auto md:mx-0">
             <div class="mt-20 flex items-center gap-6 mb-4">
                 <span class="h-2 w-2 rounded-full bg-white"></span>
-                <p class="text-gray-300 text-lg">Selamat Datang di Portofolio Saya!</p>
+                <p class="text-gray-300 text-sm sm:text-lg font-jetbrains">Selamat Datang di Portofolio Saya!</p>
             </div>
 
             <h1 class="text-4xl sm:text-5xl md:text-6xl font-semibold sm:font-bold text-white leading-tight">Hai, Saya</h1>
     
             <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-blue-500 leading-tight mb-6">{{ $home['name'] }}</h1>
-            <p class="text-white text-lg md:text-xl mb-6">&lt;{{ $home['title'] }}/&gt;</p>
-            <p class="text-gray-400 text-base md:text-lg leading-relaxed mb-8 max-w-xl">
+            <p class="text-white text-lg md:text-xl mb-6 font-inter">&lt; {{ $home['title'] }} /&gt;</p>
+            <p class="text-gray-400 text-base md:text-lg leading-relaxed mb-8 max-w-xl font-inter">
                 {{ $home['deskripsi'] }}
             </p>
 

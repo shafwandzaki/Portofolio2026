@@ -12,7 +12,7 @@
 
         <!-- Header Card: Judul dan Tanggal -->
         <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-1">
-            <p class="text-xl md:text-2xl font-bold">{{ $career['tingkatan'] }}</p>
+            <p class="text-xl md:text-2xl font-semibold">{{ $career['tingkatan'] }}</p>
             <p class="text-xs md:text-sm text-gray-500 mt-1 md:mt-0 font-normal tracking-wide">{{ $career['waktu'] }}</p>
         </div>
 

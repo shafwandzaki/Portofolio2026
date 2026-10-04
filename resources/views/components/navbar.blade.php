@@ -26,7 +26,7 @@
         <li><a href="#projects" class="hover:text-blue-600 transition-colors">Projects</a></li>
         <li><a href="#career" class="hover:text-blue-600 transition-colors">Career</a></li>
         <li>
-            <a href="{{ asset('storage/' . $home['cv']) }}" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-blue-700 text-white rounded-full hover:bg-blue-600 transition-colors">CV</a>
+            <a href="{{ asset('storage/' . $home['cv']) }}" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-blue-700 text-white text-sm rounded-xl hover:bg-blue-600 transition-colors">CV</a>
         </li>
     </ul>
 
@@ -61,7 +61,7 @@
         <li><a href="#projects" @click="open = false" class="hover:text-blue-500 transition-colors">Projects</a></li>
         <li><a href="#career" @click="open = false" class="hover:text-blue-500 transition-colors">Career</a></li>
         <li>
-            <a href="{{ asset('storage/' . $home['cv']) }}" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-blue-700 text-white rounded-full hover:bg-blue-600 transition-colors">CV</a>
+            <a href="{{ asset('storage/' . $home['cv']) }}" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-blue-700 text-white text-sm rounded-xl hover:bg-blue-600 transition-colors">CV</a>
         </li>
     </ul>
 </nav>

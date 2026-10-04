@@ -1,9 +1,9 @@
 @props(['experience'])
 
-<div class="reveal-item flex flex-col md:flex-row gap-6 mb-8">
+<div class="reveal-item flex flex-col md:flex-row gap-4 mb-8">
 
     <!-- Box Kiri -->
-    <div class="w-full md:w-32 shrink-0  bg-white/5  border border-white/10 rounded-2xl flex justify-center items-center p-6 md:p-0">
+    <div class="w-full md:w-26 shrink-0  bg-white/5  border border-white/10 rounded-2xl flex justify-center items-center p-6 md:p-0">
         <img src="{{ asset($experience['iconex']) }}" class="w-12 h-12 object-contain"/>
     </div>
 

@@ -5,7 +5,7 @@
     <div class="max-w-5xl mx-auto mt-14">
         
         <!-- Judul -->
-        <h1 class="text-4xl md:text-5xl font-bold text-center mb-16">Career</h1>
+        <h1 class="text-4xl md:text-5xl font-bold text-center mb-16 font-inter">Career</h1>
 
         <div class="reveal-group flex flex-col gap-8">
 
