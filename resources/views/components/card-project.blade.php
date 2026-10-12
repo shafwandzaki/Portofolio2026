@@ -3,9 +3,9 @@
     <!-- Card -->
     <div 
     @click="selected = {{ Illuminate\Support\Js::from($project) }}"
-    class=" reveal-item flex flex-col bg-white/5 border border-white/10 rounded-2xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:text-blue-300">
+    class=" reveal-item group flex flex-col bg-white/5 border border-white/10 rounded-2xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:text-blue-300">
         
-        <img src="{{ asset($project['img']) }}" alt="{{ $project['namaproject'] }}" class="w-full h-48 object-cover bg-gray-700" />
+        <img src="{{ asset($project['img']) }}" alt="{{ $project['namaproject'] }}" class="w-full h-48 object-cover bg-gray-700 group-hover:scale-105 transition duration-300" />
         <div class="p-6 flex flex-col grow">
             <p class="text-xl font-bold mb-3 leading-snug">{{ $project['namaproject'] }}</p>
             <p class="text-gray-300 text-sm leading-relaxed">
