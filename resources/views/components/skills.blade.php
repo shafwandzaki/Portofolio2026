@@ -6,7 +6,7 @@
         <h1 class="text-4xl md:text-5xl font-bold text-center mb-16 font-inter">Skills</h1>
 
         <!-- Grid Container (4 Kolom) -->
-        <div class="reveal-group grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
+        <div class="reveal-group grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4">
 
             @foreach ($skills as $skill)
                 <x-card-skill :skill="$skill" />

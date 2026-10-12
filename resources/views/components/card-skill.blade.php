@@ -7,9 +7,9 @@
     </div>
     <p class="text-gray-400 text-xs sm:text-sm mb-2 sm:mb-4">{{ $skill['category'] }}</p>
     <div class="flex flex-col gap-1">
-        <div class="w-full bg-gray-200 rounded-full h-2">
-            <div class="bg-blue-500 h-2 rounded-full" style="width: {{ $skill['percent'] }}%"></div>
+        <div class="w-full bg-white/10 rounded-full h-1.5">
+            <div data-bar="{{ $skill['percent'] }}" class="bg-blue-500 h-full rounded-full w-0 transition-[width] duration-1000 ease-out"></div>
         </div>
-        <p class="text-xs text-gray-300 font-medium">{{ $skill['percent'] }}%</p>
+        <p data-count="{{ $skill['percent'] }}" class="text-xs text-gray-300 font-medium">0%</p>
     </div>
 </div>

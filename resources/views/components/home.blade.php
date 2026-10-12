@@ -18,7 +18,7 @@
             </p>
 
             <!-- Tombol -->
-            <ul class="flex items-center gap-4 sm:gap-8 mb-10">
+            <ul class="flex items-center justify-center md:justify-start gap-4 sm:gap-8 mb-10">
                 <li>
                     <a href="{{ asset('storage/' . $home['cv']) }}" target="_blank" rel="noopener noreferrer" class="inline-block px-16 py-2 bg-blue-700 text-white text-2xl font-semibold rounded-full shadow-[0_0_25px_rgba(59,130,246,0.45)] hover:bg-blue-600 hover:shadow-[0_0_35px_rgba(59,130,246,0.65)] transition-colors">
                         CV
