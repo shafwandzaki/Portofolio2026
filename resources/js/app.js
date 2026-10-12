@@ -17,6 +17,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     setTimeout(() => {
                         item.classList.add('is-visible');
+
+                        // Setelah animasi muncul selesai (0.7s), lepas class reveal
+                        // supaya transisi hover milik card kembali berfungsi
+                        setTimeout(() => {
+                            item.classList.remove('reveal-item', 'is-visible');
+                        }, 750);
                     }, delay);
 
                     observer.unobserve(item); // biar animasi cuma jalan sekali
