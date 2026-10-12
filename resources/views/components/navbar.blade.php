@@ -4,15 +4,15 @@
     x-data="{ open: false, scrolled: false }"
     x-init="
         scrolled = window.scrollY > 10;
-        window.addEventListener('scroll', () => {
-            scrolled = window.scrollY > 10;
-        });
-    "
+        window.addEventListener('scroll', () => {scrolled = window.scrollY > 10;});"
+    class="sticky top-0 z-50 flex items-center justify-between px-8 py-4">
+
+    <div
     :class="scrolled
         ? 'bg-white/3 backdrop-blur-lg border-b border-white/5 px-8 py-4'
         : 'bg-transparent backdrop-blur-none border-b border-transparent px-8 py-4'"
-    class="sticky top-0 z-50 flex items-center justify-between"
->
+        class="absolute inset-0 -z-10 transition-colors duration-300"></div>
+
     <a href="#home" class="flex items-center gap-4">
         <img src="icon/logo.png" alt="Logo" class="w-8 h-8 rounded-full">
         <h2 class="text-xl font-bold text-white">dzaki.</h2>
@@ -53,7 +53,7 @@
         x-transition:leave-start="opacity-100 translate-y-0"
         x-transition:leave-end="opacity-0 -translate-y-2"
         @click.outside="open = false"
-        class="md:hidden absolute top-full left-0 w-full bg-white/10 backdrop-blur-lg border-b border-white/10 flex flex-col items-center gap-6 py-6 text-gray-300 font-normal"
+        class="md:hidden absolute top-full left-0 w-full bg-white/3 backdrop-blur-lg border-b border-white/10 flex flex-col items-center gap-6 py-6 text-gray-300 font-normal"
     >
         <li><a href="#home" @click="open = false" class="hover:text-blue-500 transition-colors">Home</a></li>
         <li><a href="#skills" @click="open = false" class="hover:text-blue-500 transition-colors">Skills</a></li>
