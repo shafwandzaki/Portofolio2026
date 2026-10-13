@@ -7,6 +7,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="bg-[#0A0C18] min-h-screen flex items-center justify-center px-4">
+    <x-bg-login />
 
     <div class="w-full max-w-sm">
         <h1 class="text-3xl font-semibold text-white text-center mb-8">Login Admin</h1>
@@ -45,7 +46,7 @@
                 </button>
             </div>
 
-            <button type="submit" class="w-full py-2.5 bg-blue-700 hover:bg-blue-600 rounded-full text-white font-semibold transition-colors">
+            <button type="submit" class="w-full py-2.5 bg-blue-700 hover:bg-blue-500 rounded-xl text-white font-semibold transition-colors">
                 Login
             </button>
         </form>
