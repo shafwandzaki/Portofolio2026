@@ -34,7 +34,7 @@ class PublikController extends Controller
             'linkinstagram' => $home->linkinstagram,
             'linkemail'     => 'mailto:' . $home->linkemail,
             'linklinkedin'  => $home->linklinkedin,
-            'cv'            => $home->cv,
+            'cv'            => asset('storage/' . $home->cv),
         ];
     }
 

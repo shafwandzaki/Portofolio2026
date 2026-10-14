@@ -8,7 +8,7 @@
         <h1 class="text-4xl md:text-5xl font-bold text-center mb-16 font-inter">Experience</h1>
 
         @foreach (collect($experiences)->groupBy('grup') as $grup => $experiences)
-            <h2 class="text-3xl font-semibold mt-16 mb-8">{{ $grup }}</h2>
+            <h2 class="text-2xl md:text-3xl font-medium font-inter mt-16 mb-6 md:mb-8">{{ $grup }}</h2>
 
             @foreach ($experiences as $experience)
                 <x-card-experience :experience="$experience" />
